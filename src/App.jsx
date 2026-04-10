@@ -240,7 +240,7 @@ export default function App() {
                   👤 Individual Sessions
                 </p>
                 <p style={{ margin: '0', color: '#0277bd', fontSize: '13px', lineHeight: '1.5' }}>
-                  1-2 mentees meet one-on-one with the mentor. More personalized attention.
+                  one-on-one meeting with the mentor.
                 </p>
               </div>
               <div>
@@ -248,7 +248,7 @@ export default function App() {
                   👥 Group Sessions
                 </p>
                 <p style={{ margin: '0', color: '#0277bd', fontSize: '13px', lineHeight: '1.5' }}>
-                  Up to 6 mentees meet together with the mentor. Great for networking and peer learning.
+                  Up to 6 mentees meet together with the mentor.
                 </p>
               </div>
             </div>
@@ -294,8 +294,7 @@ export default function App() {
                         style={{ cursor: 'pointer', marginTop: '2px' }}
                       />
                       <div>
-                        <div style={{ fontWeight: 600, color: '#333' }}>Individual</div>
-                        <div style={{ fontSize: '13px', color: '#666' }}>1-2 people, one-on-one attention</div>
+                        <div style={{ fontWeight: 600, color: '#333' }}>Individual</div>                    
                       </div>
                     </label>
                   </div>
@@ -312,7 +311,6 @@ export default function App() {
                       />
                       <div>
                         <div style={{ fontWeight: 600, color: '#333' }}>Group</div>
-                        <div style={{ fontSize: '13px', color: '#666' }}>Up to 6 people, great for networking</div>
                       </div>
                     </label>
                   </div>
