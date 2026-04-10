@@ -227,7 +227,7 @@ export default function App() {
       <div className="container">
         <header className="header">
           <h1>Find a Mentor for your Eightfold Path program</h1>
-          {/* <p></p> */}
+          <p>Sign up for a mentor and meeting type. Your mentor will contact you to set up a meeting time.</p>
         </header>
 
         <div className="content">
