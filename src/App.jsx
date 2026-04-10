@@ -17,16 +17,24 @@ export default function App() {
   const [mentors, setMentors] = useState([
     {
       id: 1,
-      name: 'Dr. Sarah Chen',
-      bio: 'AI researcher with 10 years of industry experience',
+      name: 'Yanli Wang',
+      bio: 'hey',
       availability: 'Monday & Wednesday, 1-5 PM',
       individualCapacity: 2,
       groupCapacity: 1
     },
     {
       id: 2,
-      name: 'Prof. James Wilson',
-      bio: 'Leading analytics initiatives at tech companies',
+      name: 'Lydia Ridgway',
+      bio: 'Most wonderful being',
+      availability: 'Tuesday & Thursday, 9 AM-12 PM',
+      individualCapacity: 2,
+      groupCapacity: 2
+    },
+    {
+      id: 3,
+      name: 'Lily Huang',
+      bio: 'Most lovely being',
       availability: 'Tuesday & Thursday, 9 AM-12 PM',
       individualCapacity: 2,
       groupCapacity: 2
@@ -218,8 +226,8 @@ export default function App() {
     return (
       <div className="container">
         <header className="header">
-          <h1>Mentorship Matching</h1>
-          <p>Find a mentor and get guidance from experienced professionals</p>
+          <h1>Find a Mentor for your Eightfold Path program</h1>
+          {/* <p></p> */}
         </header>
 
         <div className="content">
@@ -232,7 +240,7 @@ export default function App() {
             marginBottom: '2rem'
           }}>
             <h3 style={{ margin: '0 0 12px', color: '#01579b', fontSize: '16px', fontWeight: 600 }}>
-              📋 Meeting Types Explained
+              📋 Meeting Types
             </h3>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
               <div>
